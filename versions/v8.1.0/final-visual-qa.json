@@ -1,0 +1,10 @@
+{
+  "ok": true,
+  "scope": "running-row replacement with approved review sequence",
+  "visual_qa": "pass",
+  "qa_note": "Contact sheet and both six-frame previews show a coherent, stable, uncropped Nerisse silhouette with readable seated hologram hand and panel motion; rows 7 and 8 are intentionally identical and structurally valid.",
+  "repair_needed": false,
+  "changed_row": 7,
+  "unchanged_rows_pixel_identical": [0, 1, 2, 3, 4, 5, 6, 8, 9, 10],
+  "spriteVersionNumber": 2
+}

@@ -4,13 +4,13 @@ Nerrise is the version archive for **Nerisse**, a custom animated Codex desktop 
 
 The repository name uses **Nerrise**; the installed pet ID and display name remain **Nerisse** for compatibility with the existing Codex package.
 
-![Nerisse v8 contact sheet](versions/v8.0.0/contact-sheet.png)
+![Nerisse v8.1 contact sheet](versions/v8.1.0/contact-sheet.png)
 
 ## Latest version
 
-**v8.0.0 — Seated Hologram Review** adds an active six-frame review loop in which Nerisse sits cross-legged, scans a connected holographic panel, taps, swipes, blinks, and returns smoothly to the opening pose.
+**v8.1.0 — Hologram Thinking** uses Nerisse's seated holographic interaction for both active thinking and completed-output review, making her working state much easier to recognize.
 
-![Nerisse v8 review animation](versions/v8.0.0/previews/review.gif)
+![Nerisse v8.1 thinking animation](versions/v8.1.0/previews/running.gif)
 
 [Download the latest release](https://github.com/J3DI-19/Nerrise/releases/latest)
 
@@ -27,8 +27,8 @@ PowerShell example from a checked-out repository:
 ```powershell
 $petDir = Join-Path $env:USERPROFILE ".codex\pets\nerisse"
 New-Item -ItemType Directory -Force -Path $petDir | Out-Null
-Copy-Item .\versions\v8.0.0\pet.json $petDir -Force
-Copy-Item .\versions\v8.0.0\spritesheet.webp $petDir -Force
+Copy-Item .\versions\v8.1.0\pet.json $petDir -Force
+Copy-Item .\versions\v8.1.0\spritesheet.webp $petDir -Force
 ```
 
 If Codex is already open, switch pets or restart the app to refresh a cached atlas.
@@ -45,6 +45,7 @@ If Codex is already open, switch pets or restart the app to refresh a cached atl
 | [v6.0.0](versions/v6.0.0) | Wide & Short | Restored v4 detail while enlarging the face and improving the hourglass proportions. |
 | [v7.0.0](versions/v7.0.0) | Flirty Idle | New expressive idle loop while preserving every other v6 animation row. |
 | [v8.0.0](versions/v8.0.0) | Hologram Review | Seated holographic review interaction with scan, tap, swipe, and coy blink. |
+| [v8.1.0](versions/v8.1.0) | Hologram Thinking | Uses the seated holographic loop for the running/thinking state as well as review. |
 
 See [CHANGELOG.md](CHANGELOG.md) for detailed release notes.
 
@@ -59,13 +60,13 @@ Every published version is a Codex `spriteVersionNumber: 2` package:
 - Package files: `pet.json` and `spritesheet.webp`
 - QA artifacts: contact sheets, animation previews, and version-specific validation reports where available
 
-All eight archived atlases were revalidated before publication and passed with no errors or warnings.
+All nine archived atlases were validated before publication and passed with no errors or warnings.
 
 ## Repository layout
 
 ```text
 versions/
-  v1.0.0/ ... v8.0.0/   final packages and QA artifacts
+  v1.0.0/ ... v8.1.0/   final packages and QA artifacts
 .github/release-notes/   release descriptions used on GitHub
 CHANGELOG.md              chronological development notes
 ```
@@ -75,4 +76,3 @@ Temporary image-generation runs, duplicate rollback packages, and local installa
 ## Rights
 
 Copyright © 2026 J3DI-19. See [LICENSE](LICENSE). Personal installation and evaluation are permitted; redistribution and reuse require written permission.
-

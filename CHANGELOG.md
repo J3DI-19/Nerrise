@@ -2,6 +2,13 @@
 
 All notable versions of Nerisse are documented here. Each release contains a complete standalone Codex v2 pet package.
 
+## [v8.1.0] — Hologram Thinking
+
+- Replaced the subtle standing running/working loop with the approved seated holographic sequence.
+- Kept the completed-output review row unchanged, so both active work and review use the same requested animation.
+- Preserved rows 0–6 and 8–10 pixel-identically from v8.
+- Revalidated the complete 8×11 Codex v2 atlas with no errors or warnings.
+
 ## [v8.0.0] — Seated Hologram Review
 
 - Replaced the stale standing review loop with a six-frame seated interaction.
@@ -50,4 +57,3 @@ All notable versions of Nerisse are documented here. Each release contains a com
 - First complete Nerisse desktop-pet release.
 - Established the ethereal moonlit guardian identity.
 - Included all nine standard animation rows and sixteen look directions.
-
