@@ -1,0 +1,11 @@
+{
+  "ok": true,
+  "scope": "focused review-row repair",
+  "visual_qa": "pass",
+  "qa_note": "All six review frames preserve Nerisse's mature identity and proportions while clearly animating a cute seated hologram review through stable eye, head, hand, and attached-panel changes.",
+  "review_warning": null,
+  "repair_note": null,
+  "unchanged_rows_pixel_identical": true,
+  "changed_row": 8,
+  "spriteVersionNumber": 2
+}
