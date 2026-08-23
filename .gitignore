@@ -1,0 +1,12 @@
+# Local generation and QA workspaces
+/work/
+/outputs/
+/qa-gif-montages-v4/
+/dist/
+/zoom_image.ps1
+
+# OS/editor noise
+Thumbs.db
+.DS_Store
+*.tmp
+
