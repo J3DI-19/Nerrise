@@ -1,0 +1,25 @@
+{
+  "ok": true,
+  "pet": {
+    "id": "nerisse",
+    "displayName": "Nerisse",
+    "spriteVersionNumber": 2
+  },
+  "finalAtlas": {
+    "path": "final/spritesheet-extended.webp",
+    "width": 1536,
+    "height": 2288,
+    "format": "RGBA WEBP",
+    "validation": "pass",
+    "chromaDespill": "pass"
+  },
+  "qa": {
+    "standardRows": "pass",
+    "lookDirections": "pass",
+    "blindCardinalGate": "pass",
+    "continuity": "pass",
+    "finalVisualAudit": "pass"
+  },
+  "installedAt": "C:/Users/athar/.codex/pets/nerisse",
+  "deliverableAt": "C:/Users/athar/Documents/Codex/2026-08-05/hatch-pet-c-users-athar-codex/outputs/nerisse"
+}
