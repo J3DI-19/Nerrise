@@ -1,0 +1,31 @@
+{
+  "ok": true,
+  "coordinate_convention": "screen space; 000=up, 090=screen-right, 180=down, 270=screen-left",
+  "hard_cardinals": {
+    "000": "up",
+    "090": "screen-right",
+    "180": "down",
+    "270": "screen-left"
+  },
+  "directions": [
+    {"angle": "000", "semantic": "up", "row": 9, "column": 0},
+    {"angle": "022.5", "semantic": "up-right", "row": 9, "column": 1},
+    {"angle": "045", "semantic": "up-right", "row": 9, "column": 2},
+    {"angle": "067.5", "semantic": "up-right", "row": 9, "column": 3},
+    {"angle": "090", "semantic": "screen-right", "row": 9, "column": 4},
+    {"angle": "112.5", "semantic": "down-right", "row": 9, "column": 5},
+    {"angle": "135", "semantic": "down-right", "row": 9, "column": 6},
+    {"angle": "157.5", "semantic": "down-right", "row": 9, "column": 7},
+    {"angle": "180", "semantic": "down", "row": 10, "column": 0},
+    {"angle": "202.5", "semantic": "down-left", "row": 10, "column": 1},
+    {"angle": "225", "semantic": "down-left", "row": 10, "column": 2},
+    {"angle": "247.5", "semantic": "down-left", "row": 10, "column": 3},
+    {"angle": "270", "semantic": "screen-left", "row": 10, "column": 4},
+    {"angle": "292.5", "semantic": "up-left", "row": 10, "column": 5},
+    {"angle": "315", "semantic": "up-left", "row": 10, "column": 6},
+    {"angle": "337.5", "semantic": "up-left", "row": 10, "column": 7}
+  ],
+  "blind_validation": "qa/direction-blind-validation.json",
+  "blind_hard_gates_passed": true,
+  "review_note": "Three fresh isolated blind reviewers confirmed every horizontal and vertical pair by strict majority; validation has no errors, warnings, unconfirmed directions, or review requirement."
+}

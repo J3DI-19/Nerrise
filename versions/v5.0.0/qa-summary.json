@@ -1,0 +1,46 @@
+{
+  "ok": true,
+  "pet": "Nerisse v5 large clean",
+  "atlas": {
+    "width": 1536,
+    "height": 2288,
+    "columns": 8,
+    "rows": 11,
+    "cell": "192x208",
+    "spriteVersionNumber": 2,
+    "validatorErrors": 0,
+    "validatorWarnings": 0,
+    "transparentRgbResiduePixels": 0
+  },
+  "standardAnimations": {
+    "count": 9,
+    "allPresent": true,
+    "allFrameCountsValid": true,
+    "visualQa": "pass",
+    "jump": "slow, smooth, upright, primarily vertical",
+    "runningLeftFragments": false,
+    "hairDuplication": false
+  },
+  "lookDirections": {
+    "count": 16,
+    "blindReviewers": 3,
+    "blindValidation": "pass",
+    "errors": 0,
+    "warnings": 0,
+    "unconfirmed": 0,
+    "hardCardinals": "pass",
+    "seam157_5To180": "visual pass; center 3.54px; area ratio 1.07",
+    "seam337_5To000": "visual pass; center 7.57px; area ratio 1.22; residual area difference is frontal cloak projection/opacity"
+  },
+  "design": {
+    "adult": true,
+    "largerInCell": true,
+    "reducedPalette": true,
+    "cleanSkinAndEyes": true,
+    "jellyfishHairPreserved": true,
+    "outfitConstructionAndCoveragePreserved": true,
+    "hourglassSilhouettePreserved": true,
+    "secondaryMotion": "restrained and body-coupled"
+  },
+  "independentFinalVisualQa": "pass"
+}
