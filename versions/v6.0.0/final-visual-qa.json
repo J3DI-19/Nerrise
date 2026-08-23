@@ -1,0 +1,55 @@
+{
+  "ok": true,
+  "blocking": [],
+  "warnings": [
+    "Blind validation reports intermediate horizontal disagreements for 337.5/022.5, 225/135, and 157.5/202.5; both hard cardinal pairs pass, and labeled ordered review shows the intended quadrants without reversal.",
+    "Continuity metrics flag several local diff outliers, largest at 337.5->000; normal-size visual review shows a coherent seam with stable identity, baseline, scale, and attachment, so these remain review warnings only."
+  ],
+  "checks": [
+    {
+      "id": "mature-adult-non-chibi",
+      "result": "pass",
+      "reason": "Adult facial anatomy and feminine body proportions remain mature and non-chibi throughout."
+    },
+    {
+      "id": "compact-hourglass-readable-face",
+      "result": "pass",
+      "reason": "The sprite is visibly shorter and wider than the v4 source, retains a compact hourglass silhouette, and keeps the face readable at pet scale."
+    },
+    {
+      "id": "v4-identity-design-family",
+      "result": "pass",
+      "reason": "White bob, navy corset outfit, long gloves and boots, crystalline accents, translucent blue-lilac jellyfish drapery, and palette remain faithful to the v4 design family across rows."
+    },
+    {
+      "id": "fragment-and-hair-integrity",
+      "result": "pass",
+      "reason": "No detached effects, loose fragments, duplicated side-hair masses, or broken costume attachments are visible."
+    },
+    {
+      "id": "standard-animation-semantics-and-gait",
+      "result": "pass",
+      "reason": "Idle, directional running, waving, failed, waiting, active running, and review loops are distinct and appropriate; both travel rows face correctly and alternate limbs and stride phases."
+    },
+    {
+      "id": "upright-slow-jump",
+      "result": "pass",
+      "reason": "The five-frame jump remains upright and centered with a restrained, smooth rise-apex-fall cycle and no landing effect."
+    },
+    {
+      "id": "clipping-and-edge-artifacts",
+      "result": "pass",
+      "reason": "Bodies, hair, limbs, and drapery stay inside their cells without clipping, overlap, interior holes, or visible cleaned-atlas edge artifacts; v2 validation is ok."
+    },
+    {
+      "id": "look-hard-cardinals",
+      "result": "pass",
+      "reason": "000 reads up, 090 screen-right, 180 down, and 270 screen-left; blind validation confirms both hard cardinal pairs."
+    },
+    {
+      "id": "look-loop-continuity",
+      "result": "pass",
+      "reason": "The labeled clockwise loop remains coherent with no visible reversal or registration pop; 090/112.5 and 247.5/270 are intentional held side views, and 337.5 transitions acceptably into 000 despite the metric outlier."
+    }
+  ]
+}

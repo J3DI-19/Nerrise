@@ -1,0 +1,13 @@
+{
+  "ok": true,
+  "petId": "nerisse",
+  "variant": "v4-wide-short-v6",
+  "atlas": {"columns": 8, "rows": 11, "cellWidth": 192, "cellHeight": 208, "spriteVersionNumber": 2},
+  "design": {"ok": true, "note": "Mature v4 identity, ornate detail, jellyfish haircut, cool palette, and costume construction preserved with a shorter, wider hourglass silhouette and larger readable face."},
+  "standardRows": {"ok": true, "rows": 9, "note": "All animation semantics, frame separation, alternating travel gaits, and loops passed independent visual QA."},
+  "jump": {"ok": true, "note": "Slow upright low-mid-high-mid-low vertical arc; no sit-up motion."},
+  "hair": {"ok": true, "note": "Jellyfish cut and blue-lilac underlayer remain coherent with no side duplication."},
+  "directions": {"ok": true, "hardCardinalsPassed": true, "reviewRequired": true, "note": "All hard cardinals passed isolated blind review; shallow intermediate lateral cues retain non-blocking warnings."},
+  "validation": {"ok": true, "errors": [], "warnings": []},
+  "independentFinalQa": {"ok": true, "blocking": [], "warnings": ["Intermediate blind-direction disagreements remain non-blocking.", "Pixel-difference continuity outliers are visually acceptable at normal size."]}
+}

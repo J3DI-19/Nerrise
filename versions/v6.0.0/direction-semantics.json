@@ -1,0 +1,22 @@
+{
+  "ok": true,
+  "reviewRequired": true,
+  "directions": [
+    {"direction":"000","status":"pass","expected":"up","observed":"clear lifted chin and gaze","reason":"Hard vertical cardinal passed blind majority review."},
+    {"direction":"022.5","status":"warning","expected":"up-right","observed":"clear upward turn with a shallow lateral cue","reason":"Vertical component passed; lateral component read inconsistently at desktop scale."},
+    {"direction":"045","status":"pass","expected":"up-right","observed":"raised three-quarter screen-right turn","reason":"Blind majority confirmed both components."},
+    {"direction":"067.5","status":"pass","expected":"up-right","observed":"strong upward screen-right turn","reason":"Blind majority confirmed both components."},
+    {"direction":"090","status":"pass","expected":"right","observed":"unmistakable screen-right side turn","reason":"Hard horizontal cardinal passed blind majority review."},
+    {"direction":"112.5","status":"pass","expected":"down-right","observed":"clear downward screen-right side turn","reason":"Blind majority confirmed both components."},
+    {"direction":"135","status":"warning","expected":"down-right","observed":"clear downward turn with a mixed lateral read","reason":"Vertical component passed; lateral component was inconsistent in blind review."},
+    {"direction":"157.5","status":"warning","expected":"down-right","observed":"strong downward near-frontal turn with subtle lateral bias","reason":"Vertical component passed; lateral component was inconsistent in blind review."},
+    {"direction":"180","status":"pass","expected":"down","observed":"pronounced bowed head and lowered gaze","reason":"Hard vertical cardinal passed blind majority review."},
+    {"direction":"202.5","status":"warning","expected":"down-left","observed":"strong downward near-frontal turn with subtle lateral bias","reason":"Vertical component passed; lateral component was inconsistent in blind review."},
+    {"direction":"225","status":"warning","expected":"down-left","observed":"clear downward turn with a mixed lateral read","reason":"Vertical component passed; lateral component was inconsistent in blind review."},
+    {"direction":"247.5","status":"pass","expected":"down-left","observed":"clear downward screen-left side turn","reason":"Blind majority confirmed both components."},
+    {"direction":"270","status":"pass","expected":"left","observed":"unmistakable screen-left side turn","reason":"Hard horizontal cardinal passed blind majority review."},
+    {"direction":"292.5","status":"pass","expected":"up-left","observed":"clear upward screen-left turn","reason":"Blind majority confirmed both components."},
+    {"direction":"315","status":"pass","expected":"up-left","observed":"raised three-quarter screen-left turn","reason":"Blind majority confirmed both components."},
+    {"direction":"337.5","status":"warning","expected":"up-left","observed":"clear upward turn with a shallow lateral cue","reason":"Vertical component passed; lateral component read inconsistently at desktop scale."}
+  ]
+}
