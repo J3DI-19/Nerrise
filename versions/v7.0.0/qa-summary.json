@@ -1,0 +1,15 @@
+{
+  "ok": true,
+  "petId": "nerisse",
+  "variant": "flirty-idle-v7",
+  "scope": "idle row repair only",
+  "atlas": {"columns": 8, "rows": 11, "cellWidth": 192, "cellHeight": 208, "spriteVersionNumber": 2},
+  "idle": {
+    "ok": true,
+    "frames": 6,
+    "note": "Larger readable face, subtly shorter and wider mature hourglass proportions, and a restrained flirty loop using coy gaze, half-lidded blink, tiny head tilt, hip-weight shift, breathing, and hair/cape follow-through."
+  },
+  "preservation": {"ok": true, "note": "Rows 1 through 10 are pixel-identical to the installed v6 source atlas."},
+  "validation": {"ok": true, "errors": [], "warnings": []},
+  "independentVisualQa": {"ok": true, "blocking": [], "warnings": ["The blink and coy gaze are intentionally subtle at normal pet size."]}
+}

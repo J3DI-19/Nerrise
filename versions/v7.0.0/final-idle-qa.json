@@ -1,0 +1,41 @@
+{
+  "ok": true,
+  "blocking": [],
+  "warnings": [
+    "The blink and coy gaze are deliberately subtle at normal pet size, but remain readable across the six-frame sequence."
+  ],
+  "checks": {
+    "identity_and_design_match": {
+      "ok": true,
+      "note": "Mature Nerisse identity, silver bob with blue-violet underlayers, navy crystalline outfit, translucent cape, palette, materials, and rendering family remain consistent with the v6/v4 reference."
+    },
+    "larger_readable_head": {
+      "ok": true,
+      "note": "The repaired idle gives the face and head a visibly larger, clearer read than the old v6 idle at normal pet size."
+    },
+    "adult_proportions": {
+      "ok": true,
+      "note": "The body reads subtly shorter and wider with a mature hourglass silhouette, without chibi or childlike proportions."
+    },
+    "frame_completeness_and_cleanliness": {
+      "ok": true,
+      "note": "All six frames are present, connected, unclipped, and free of duplicated side hair, detached fragments, or empty required cells."
+    },
+    "flirty_idle_motion": {
+      "ok": true,
+      "note": "The sequence reads as a restrained flirty idle through coy eye changes, a half-lidded blink, tiny head tilts, hip-weight shifts, breathing, and restrained cape and hair follow-through."
+    },
+    "planted_and_stable": {
+      "ok": true,
+      "note": "Feet remain planted; there is no wave, walk, jump, large gesture, visible jitter, or extraction-driven size pop."
+    },
+    "loop_seam": {
+      "ok": true,
+      "note": "Frame 5 returns to frame 0 with only a small pose and expression transition and no conspicuous snap."
+    },
+    "preserved_rows_and_v2_validation": {
+      "ok": true,
+      "note": "The remaining ten atlas rows visually retain the v6 content, and validation reports a 1536x2288 spriteVersionNumber 2 atlas with no errors or warnings."
+    }
+  }
+}
