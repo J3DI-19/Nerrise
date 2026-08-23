@@ -1,0 +1,12 @@
+{
+  "ok": true,
+  "petId": "nerisse",
+  "variant": "jellyfish-hd-v4",
+  "atlas": {"columns": 8, "rows": 11, "cellWidth": 192, "cellHeight": 208, "spriteVersionNumber": 2},
+  "standardRows": {"ok": true, "rows": 9, "note": "All animation semantics, frame separation, and loops passed independent visual QA."},
+  "jump": {"ok": true, "note": "Slow upright low-mid-high-mid-low vertical arc; no sit-up motion."},
+  "hair": {"ok": true, "note": "Jellyfish bob and blue-lilac underlayer remain coherent with no side duplication."},
+  "directions": {"ok": true, "hardCardinalsPassed": true, "reviewRequired": true, "note": "All 16 form a clockwise loop; shallow intermediate pitch cues retain non-blocking warnings."},
+  "validation": {"ok": true, "errors": [], "warnings": []},
+  "independentFinalQa": {"ok": true, "blocking": []}
+}

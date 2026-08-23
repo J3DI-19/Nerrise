@@ -1,0 +1,22 @@
+{
+  "ok": true,
+  "reviewRequired": true,
+  "directions": [
+    {"direction":"000","status":"pass","expected":"up","observed":"clear upward chin and gaze","reason":"Hard vertical cardinal passed unanimous blind review."},
+    {"direction":"022.5","status":"warning","expected":"up-right","observed":"near-frontal upward turn with a shallow right component","reason":"Vertical component passed; lateral component was subtle in blind review."},
+    {"direction":"045","status":"pass","expected":"up-right","observed":"clear raised three-quarter screen-right turn","reason":"Blind majority confirmed screen-right and up."},
+    {"direction":"067.5","status":"warning","expected":"up-right","observed":"strong screen-right turn with a subtle vertical pitch","reason":"Blind majority confirmed screen-right; vertical pitch was mixed in final blind review."},
+    {"direction":"090","status":"pass","expected":"right","observed":"clear screen-right profile","reason":"Hard horizontal cardinal passed blind review."},
+    {"direction":"112.5","status":"warning","expected":"down-right","observed":"clear screen-right turn with a subtle downward pitch","reason":"Blind majority confirmed screen-right; vertical pitch was mixed in final blind review."},
+    {"direction":"135","status":"pass","expected":"down-right","observed":"downward screen-right three-quarter turn","reason":"Blind majority confirmed screen-right and down."},
+    {"direction":"157.5","status":"pass","expected":"down-right","observed":"strong downward near-frontal turn with right bias","reason":"Final blind majority confirmed both down and screen-right; transition to 180 is now well registered."},
+    {"direction":"180","status":"pass","expected":"down","observed":"pronounced bowed head and lowered eyes","reason":"Hard vertical cardinal passed unanimous blind review."},
+    {"direction":"202.5","status":"pass","expected":"down-left","observed":"downward near-frontal turn with left component","reason":"Final blind majority confirmed both down and screen-left."},
+    {"direction":"225","status":"warning","expected":"down-left","observed":"clear screen-left three-quarter turn with subtle vertical pitch","reason":"Final blind majority confirmed screen-left; vertical pitch was mixed."},
+    {"direction":"247.5","status":"pass","expected":"down-left","observed":"strong downward screen-left turn","reason":"Blind majority confirmed screen-left and down."},
+    {"direction":"270","status":"pass","expected":"left","observed":"clear screen-left profile","reason":"Hard horizontal cardinal passed blind review."},
+    {"direction":"292.5","status":"pass","expected":"up-left","observed":"clear upward gaze and screen-left facial projection","reason":"Final blind majority confirmed both up and screen-left after the grounded repair."},
+    {"direction":"315","status":"warning","expected":"up-left","observed":"clear screen-left three-quarter turn with subtle vertical pitch","reason":"Final blind majority confirmed screen-left; vertical pitch was mixed."},
+    {"direction":"337.5","status":"warning","expected":"up-left","observed":"near-frontal upward turn with slight left bias","reason":"Upward component passed; lateral component is subtle and the wrap to 000 changes silhouette area."}
+  ]
+}
