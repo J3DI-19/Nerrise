@@ -1,0 +1,109 @@
+{
+  "ok": true,
+  "method": "shared-scale-vertical-registration",
+  "source_method": "stable-slots",
+  "shared_scale": 1.054945054945055,
+  "target_max_height": 192,
+  "target_baselines": [
+    203,
+    198,
+    193,
+    198,
+    203
+  ],
+  "rows": [
+    {
+      "state": "jumping",
+      "frames": [
+        "C:\\Users\\athar\\Documents\\Codex\\2026-08-05\\hatch-pet-c-users-athar-codex\\work\\nerisse-jump-repair\\frames-v3-registered\\jumping\\00.png",
+        "C:\\Users\\athar\\Documents\\Codex\\2026-08-05\\hatch-pet-c-users-athar-codex\\work\\nerisse-jump-repair\\frames-v3-registered\\jumping\\01.png",
+        "C:\\Users\\athar\\Documents\\Codex\\2026-08-05\\hatch-pet-c-users-athar-codex\\work\\nerisse-jump-repair\\frames-v3-registered\\jumping\\02.png",
+        "C:\\Users\\athar\\Documents\\Codex\\2026-08-05\\hatch-pet-c-users-athar-codex\\work\\nerisse-jump-repair\\frames-v3-registered\\jumping\\03.png",
+        "C:\\Users\\athar\\Documents\\Codex\\2026-08-05\\hatch-pet-c-users-athar-codex\\work\\nerisse-jump-repair\\frames-v3-registered\\jumping\\04.png"
+      ],
+      "method": "stable-slots"
+    }
+  ],
+  "registrations": [
+    {
+      "frame": 0,
+      "source_bbox": [
+        48,
+        24,
+        144,
+        203
+      ],
+      "registered_bbox": [
+        46,
+        14,
+        147,
+        203
+      ],
+      "target_baseline": 203
+    },
+    {
+      "frame": 1,
+      "source_bbox": [
+        48,
+        14,
+        144,
+        192
+      ],
+      "registered_bbox": [
+        46,
+        10,
+        147,
+        198
+      ],
+      "target_baseline": 198
+    },
+    {
+      "frame": 2,
+      "source_bbox": [
+        48,
+        5,
+        144,
+        183
+      ],
+      "registered_bbox": [
+        46,
+        5,
+        147,
+        193
+      ],
+      "target_baseline": 193
+    },
+    {
+      "frame": 3,
+      "source_bbox": [
+        48,
+        15,
+        144,
+        197
+      ],
+      "registered_bbox": [
+        46,
+        6,
+        147,
+        198
+      ],
+      "target_baseline": 198
+    },
+    {
+      "frame": 4,
+      "source_bbox": [
+        48,
+        25,
+        144,
+        203
+      ],
+      "registered_bbox": [
+        46,
+        15,
+        147,
+        203
+      ],
+      "target_baseline": 203
+    }
+  ]
+}

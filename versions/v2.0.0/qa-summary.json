@@ -1,0 +1,10 @@
+{
+  "ok": true,
+  "pet": {"id":"nerisse","displayName":"Nerisse","spriteVersionNumber":2},
+  "redesign": {"style":"smooth flat-vector cel shading","pixelArt":false,"simplifiedDetails":true,"outfit":"off-shoulder cropped bodice, visible midriff, split short overskirt, fitted shorts, bare thighs, thigh-high boots"},
+  "finalAtlas": {"path":"spritesheet.webp","width":1536,"height":2288,"format":"RGBA WEBP","validation":"pass","chromaDespill":"pass"},
+  "repair": {"scope":"idle and jumping rows","idleIssue":"duplicated detached side-hair caused by slot-boundary leakage","idleResolution":"regenerated six separated idle frames and extracted by connected components","jumpingIssue":"hover sequence read as sit-ups and had an abrupt settle","jumpingResolution":"regenerated upright levitation poses and applied shared-scale vertical registration for a smooth 10 px arc","preservedRows":"all rows outside each targeted repair remained pixel-identical after decode"},
+  "qa": {"standardRows":"pass","idleHair":"pass-no-detached-tufts","idleMotion":"pass-stable-scale-and-position","jumpingMotion":"pass-smooth-upright-vertical-arc","lookDirections":"pass","blindDirectionGate":"pass-unanimous-zero-warnings","continuity":"pass-reviewed","finalVisualAudit":"pass-independent"},
+  "installedAt": "C:/Users/athar/.codex/pets/nerisse",
+  "deliverableAt": "C:/Users/athar/Documents/Codex/2026-08-05/hatch-pet-c-users-athar-codex/outputs/nerisse-hq"
+}

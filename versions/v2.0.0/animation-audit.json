@@ -1,0 +1,30 @@
+{
+  "ok": true,
+  "overall": "pass",
+  "runtimeMapping": {
+    "hover": "jumping",
+    "row": 4,
+    "note": "Codex intentionally triggers the jumping row on pointer hover; this cannot be remapped through pet.json."
+  },
+  "states": {
+    "idle": {"verdict": "pass", "note": "Calm blink and hair micro-motion with stable identity, scale, and baseline."},
+    "running-right": {"verdict": "pass", "note": "Faces screen-right with a clear alternating gait and no reversal."},
+    "running-left": {"verdict": "pass", "note": "Faces screen-left with a clear alternating gait and no reversal."},
+    "waving": {"verdict": "pass", "note": "Readable hand greeting with stable framing and no detached effects."},
+    "jumping": {"verdict": "pass", "note": "Upright hover levitation follows a smooth 10 px baseline-lift-peak-descent-settle arc without entry, internal, or exit scale pops."},
+    "failed": {"verdict": "pass", "note": "Head, eyes, and posture create a readable deflation cycle."},
+    "waiting": {"verdict": "pass", "note": "Open-hand expectant gesture clearly requests user input."},
+    "running": {"verdict": "pass", "note": "Book-focused motion reads as active task processing rather than locomotion."},
+    "review": {"verdict": "pass", "note": "Restrained book inspection and gaze changes read as focused review."},
+    "look-directions": {"verdict": "pass", "note": "All 16 poses progress clockwise without reversal and the loop boundary is smooth."}
+  },
+  "deterministicChecks": {
+    "atlasV2Validation": "pass",
+    "frameCounts": "pass",
+    "usedAndUnusedCells": "pass",
+    "clipping": "pass",
+    "detachedEffects": "pass",
+    "identityConsistency": "pass"
+  },
+  "recommendation": "No further animation repair is required."
+}
