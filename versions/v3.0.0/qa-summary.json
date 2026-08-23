@@ -1,0 +1,14 @@
+{
+  "ok": true,
+  "spriteVersionNumber": 2,
+  "deterministicValidation": "pass",
+  "blindDirectionValidation": "pass",
+  "independentVisualQA": "pass",
+  "standardRows": ["idle", "running-right", "running-left", "waving", "jumping", "failed", "waiting", "running", "review"],
+  "lookDirections": 16,
+  "notes": [
+    "Jumping reads as a smooth vertical arc rather than a sit-up motion.",
+    "No duplicated side hair, detached fragments, or edge residue were found.",
+    "Short hair, bust, hips, and fabric use restrained coherent follow-through."
+  ]
+}
